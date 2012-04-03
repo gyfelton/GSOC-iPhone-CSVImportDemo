@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE5E0C89152885B600B98976 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5E0C88152885B600B98976 /* UIKit.framework */; };
+		FE5E0C8B152885B600B98976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5E0C8A152885B600B98976 /* Foundation.framework */; };
+		FE5E0C8D152885B600B98976 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5E0C8C152885B600B98976 /* CoreGraphics.framework */; };
+		FE5E0C93152885B600B98976 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE5E0C91152885B600B98976 /* InfoPlist.strings */; };
+		FE5E0C95152885B600B98976 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E0C94152885B600B98976 /* main.m */; };
+		FE5E0C99152885B600B98976 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E0C98152885B600B98976 /* AppDelegate.m */; };
+		FE5E0CAB1528932C00B98976 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E0CA91528932C00B98976 /* TableViewController.m */; };
+		FE5E0CAC1528932C00B98976 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE5E0CAA1528932C00B98976 /* TableViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE5E0C84152885B600B98976 /* csvImportDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = csvImportDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5E0C88152885B600B98976 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE5E0C8A152885B600B98976 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE5E0C8C152885B600B98976 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE5E0C90152885B600B98976 /* csvImportDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "csvImportDemo-Info.plist"; sourceTree = "<group>"; };
+		FE5E0C92152885B600B98976 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE5E0C94152885B600B98976 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE5E0C96152885B600B98976 /* csvImportDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "csvImportDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FE5E0C97152885B600B98976 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE5E0C98152885B600B98976 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE5E0CA81528932B00B98976 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		FE5E0CA91528932C00B98976 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		FE5E0CAA1528932C00B98976 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE5E0C81152885B600B98976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5E0C89152885B600B98976 /* UIKit.framework in Frameworks */,
+				FE5E0C8B152885B600B98976 /* Foundation.framework in Frameworks */,
+				FE5E0C8D152885B600B98976 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE5E0C79152885B500B98976 = {
+			isa = PBXGroup;
+			children = (
+				FE5E0C8E152885B600B98976 /* csvImportDemo */,
+				FE5E0C87152885B600B98976 /* Frameworks */,
+				FE5E0C85152885B600B98976 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE5E0C85152885B600B98976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE5E0C84152885B600B98976 /* csvImportDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE5E0C87152885B600B98976 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE5E0C88152885B600B98976 /* UIKit.framework */,
+				FE5E0C8A152885B600B98976 /* Foundation.framework */,
+				FE5E0C8C152885B600B98976 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE5E0C8E152885B600B98976 /* csvImportDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FE5E0C97152885B600B98976 /* AppDelegate.h */,
+				FE5E0CA81528932B00B98976 /* TableViewController.h */,
+				FE5E0CA91528932C00B98976 /* TableViewController.m */,
+				FE5E0CAA1528932C00B98976 /* TableViewController.xib */,
+				FE5E0C98152885B600B98976 /* AppDelegate.m */,
+				FE5E0C8F152885B600B98976 /* Supporting Files */,
+			);
+			path = csvImportDemo;
+			sourceTree = "<group>";
+		};
+		FE5E0C8F152885B600B98976 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE5E0C90152885B600B98976 /* csvImportDemo-Info.plist */,
+				FE5E0C91152885B600B98976 /* InfoPlist.strings */,
+				FE5E0C94152885B600B98976 /* main.m */,
+				FE5E0C96152885B600B98976 /* csvImportDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE5E0C83152885B600B98976 /* csvImportDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE5E0CA5152885B600B98976 /* Build configuration list for PBXNativeTarget "csvImportDemo" */;
+			buildPhases = (
+				FE5E0C80152885B600B98976 /* Sources */,
+				FE5E0C81152885B600B98976 /* Frameworks */,
+				FE5E0C82152885B600B98976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = csvImportDemo;
+			productName = csvImportDemo;
+			productReference = FE5E0C84152885B600B98976 /* csvImportDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE5E0C7B152885B500B98976 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FE5E0C7E152885B500B98976 /* Build configuration list for PBXProject "csvImportDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE5E0C79152885B500B98976;
+			productRefGroup = FE5E0C85152885B600B98976 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE5E0C83152885B600B98976 /* csvImportDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE5E0C82152885B600B98976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5E0C93152885B600B98976 /* InfoPlist.strings in Resources */,
+				FE5E0CAC1528932C00B98976 /* TableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE5E0C80152885B600B98976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5E0C95152885B600B98976 /* main.m in Sources */,
+				FE5E0C99152885B600B98976 /* AppDelegate.m in Sources */,
+				FE5E0CAB1528932C00B98976 /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE5E0C91152885B600B98976 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE5E0C92152885B600B98976 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE5E0CA3152885B600B98976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE5E0CA4152885B600B98976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE5E0CA6152885B600B98976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "csvImportDemo/csvImportDemo-Prefix.pch";
+				INFOPLIST_FILE = "csvImportDemo/csvImportDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE5E0CA7152885B600B98976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "csvImportDemo/csvImportDemo-Prefix.pch";
+				INFOPLIST_FILE = "csvImportDemo/csvImportDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE5E0C7E152885B500B98976 /* Build configuration list for PBXProject "csvImportDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5E0CA3152885B600B98976 /* Debug */,
+				FE5E0CA4152885B600B98976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE5E0CA5152885B600B98976 /* Build configuration list for PBXNativeTarget "csvImportDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5E0CA6152885B600B98976 /* Debug */,
+				FE5E0CA7152885B600B98976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE5E0C7B152885B500B98976 /* Project object */;
+}
